@@ -1,0 +1,11 @@
+{% if name %}
+<ul style="list-style-type:circle">
+    <li><b>ID:</b> {{ id }} </li>
+    <li><b>Nome:</b> {{ name }} </li>
+    <li><b>Nascimento:</b> {{ birthday }} </li>
+    <li><b>Sexo:</b> {{ sex }} </li>
+    <li><b>E-mail:</b> {{ mail }} </li>
+</ul>
+{% else %}
+<h1>Usuário não encontrado</h1>
+{% endif %}
