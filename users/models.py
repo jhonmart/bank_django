@@ -1,6 +1,7 @@
 from django.db import models
 from djchoices import ChoiceItem, DjangoChoices
 
+
 class UserModel(models.Model):
     class Sex(DjangoChoices):
         male = ChoiceItem("Masculino")

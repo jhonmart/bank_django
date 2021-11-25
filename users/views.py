@@ -2,13 +2,13 @@ from django.shortcuts import render
 from users.serializers import UserSerializer, UserListSerializer
 from rest_framework import status, viewsets
 from rest_framework.response import Response
-from rest_framework.generics import get_object_or_404
 
 from users.models import UserModel
 
+
 class UserViewSet(viewsets.ViewSet):
     def show_user(self, request):
-        return render(request, 'detail.html', { 'name': 'Jonatas' })
+        return render(request, 'detail.html', {'name': 'Jonatas'})
 
     def insert_user(self, request):
         user_serializer = UserSerializer(data=request.data)
