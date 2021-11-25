@@ -21,7 +21,7 @@ python manage.py migrate
   "name": "Nome Sobrenome",
   "birthday": "2021-11-24",
   "sex": "Masculino",
-  "mail": "pessoa.email@server.com",
+  "email": "pessoa.email@server.com",
   "password": "ij19031hh7!"
 }
 ```
