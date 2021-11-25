@@ -3,3 +3,4 @@ django-choices==1.7.1
 djangorestframework==3.11.0
 pylint==2.5.2
 pylint-django==2.0.15
+flake8==3.8.1

@@ -1,5 +1,7 @@
 # Django Bank
 
+[![.github/workflows/github-actions-demo.yml](https://github.com/jhonmart/bank_django/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/jhonmart/bank_django/actions/workflows/github-actions-demo.yml)
+
 # Commands used
 ``` 
 pip install -r requirements.txt
